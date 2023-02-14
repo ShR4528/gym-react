@@ -13,16 +13,28 @@ const Banner = () => {
         <div className='flex items-center h-full relative -space-x-48 lg:-space-x-24'>
           {/* text */}
           <div className='text-white flex-1 z-10 pl-8 lg:pl-0'>
-            <h1 className='h1 text-white mb-8'>
+            <h1 className='h1 text-white mb-8'
+              data-aos='face-down'
+              data-aos-delay='500'
+            >
               {titlePart1} <br />
               <span className='text-primary-200'>{titlePart2}</span>
             </h1>
-            <p className='max-w-[415px] text-body-mb lg:text-body-lg'>{subtitle}</p>
-            <button className='btn btn-sm lg:btn-lg btn-secondary'>{textBtn}</button>
+            <p className='max-w-[415px] text-body-mb lg:text-body-lg'
+              data-aos='face-down'
+              data-aos-delay='600'
+            >{subtitle}</p>
+            <button className='btn btn-sm lg:btn-lg btn-secondary'
+              data-aos='face-down'
+              data-aos-delay='700'
+            >{textBtn}</button>
           </div>
           {/* image */}
           <div className='bg-blue-400 w-full h-full bg-banner bg-cover 
-          bg-right lg:bg-center bg-no-repeat flex-1'>Image</div>
+          bg-right lg:bg-center bg-no-repeat flex-1'
+            data-aos='face-right'
+            data-aos-delay='900'
+          >Image</div>
         </div>
       </div>
     </section>
