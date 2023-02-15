@@ -34,7 +34,7 @@ const Banner = () => {
           bg-right lg:bg-center bg-no-repeat flex-1'
             data-aos='face-right'
             data-aos-delay='900'
-          >Image</div>
+          ></div>
         </div>
       </div>
     </section>
