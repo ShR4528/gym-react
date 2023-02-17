@@ -22,7 +22,7 @@ const Community = () => {
           >
             <img src={icon} alt='icon' />
             <h2 className='h2 section-title'>{title}
-              <span className='text-primary-200'>.</span>
+              <span className=' text-primary-200'>.</span>
             </h2>
           </div>
           {/* slider */}
